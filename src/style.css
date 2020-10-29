@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url("https://rsms.me/inter/inter.css");
+html { 
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    background: #20232a;
+    color: white;
+}
+@supports (font-variation-settings: normal) {
+    html { font-family: "Inter var", sans-serif; }
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    padding: 1rem calc(50% - 24rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+h1 {
+    color: #61dafb;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+@media (hover: hover) {
+    a:hover {
+        color: #61dafb;
+    }
+}
+
+.lgk-cookie-message {
+    display: none !important;
+}
